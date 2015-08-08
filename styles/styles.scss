@@ -1,0 +1,21 @@
+
+.o-container {
+  padding: 0 15px;
+}
+.header {
+  text-align: center;
+}
+.c-microphone {
+  margin: 0 auto;
+  width: 100px;
+}
+.c-microphone__btn {
+    background-color: #19DA3D;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24); 
+    height: 80px;
+    text-align: center;
+    /* margin: 0 auto; */
+    width: 80px;
+}
