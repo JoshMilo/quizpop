@@ -5,17 +5,25 @@
   <meta name="description" content="fuck you">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Quizpop</title>
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.indigo-pink.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="styles/styles.css">
 
 </head>
 <body>
-  <section class="o-container">
-    <h1 class="header">Welcome to our Quiz!</h1>
+  <section class="mdl-grid">
+    <div class="mdl-cell mdl-cell--12-col">
+      <h1 class="header">Welcome to our Quiz!</h1>
+    </div>
     
     <div class="c-microphone">
-      <button class="c-microphone__btn">Click Me!</button>
+      <button class="c-microphone__btn mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--fab mdl-button--colored">
+        <i class="material-icons">mic</i>
+      </button>
     </div>
+    
   </section>
+  <script src="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.min.js"></script>
   <script src="vendor/fetch.js"></script>
   <script src="index.js"></script>
 </body>
