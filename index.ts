@@ -1,9 +1,17 @@
-/**
-  btn that does stuff
-  @param {string} - string of stuff
-*/
-var btn = document.querySelector(".c-microphone__btn");
+/// <reference path="typings/tsd.d.ts" />
 
-function clickMe(button:string) {
-  btn
-}
+/**
+ * Like JQuery's document ready.
+ */
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  
+  let btn = document.querySelector(".c-microphone__btn");
+  
+  btn.addEventListener("click", () => {
+	  console.log("fuck you");
+  })
+  
+  
+  
+}); // end document

@@ -1,0 +1,25 @@
+{
+  "name": "quizpop",
+  "version": "0.0.1",
+  "description": "quiz app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshMilo/quizpop.git"
+  },
+  "keywords": [
+    "quiz"
+  ],
+  "author": "J & J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoshMilo/quizpop/issues"
+  },
+  "homepage": "https://github.com/JoshMilo/quizpop#readme",
+  "dependencies": {
+    "whatwg-fetch": "^0.9.0"
+  }
+}
